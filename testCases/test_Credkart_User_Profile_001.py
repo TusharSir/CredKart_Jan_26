@@ -231,12 +231,13 @@ class Test_User_Profile :
 # pip install pytest-dependency to create dependency in testcases.
 # pip install pytest-order
 
-# 29th jan 2026
-# allure report - 15 mints
-# jenkins  - installation 30 mints
-# git  - installation 30 mints
+# (29th jan 2026-) 30th jan 2026
+# allure report - 15 mints --done
+# Jenkins  - installation 30 mints
+# git  - installation 30 mints --done
 
-# 30th Jan 2026--> orange hrm
+
+# 30th Jan 2026--> Orange HRM
 # 6 am to 9 am
 
 # 1st Feb --> Hr session
@@ -244,7 +245,5 @@ class Test_User_Profile :
 
 # ETL Revision --> After 8th feb
 
-
-# Batch#23-->
 
 # HR log 3 lpa --> offer letter 10 lpa
