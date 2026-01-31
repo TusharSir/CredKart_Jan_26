@@ -67,7 +67,7 @@ class Test_User_Profile :
         self.driver.get(self.login_url)
         self.log.info(f"Opening browser and getting {self.login_url}")
         self.log.info(f"Checking driver title")
-        if self.driver.title == "CredKart1":
+        if self.driver.title == "CredKart":
             self.log.info(f"Testcase test_verify_Credkart_url_001 is passed")
             self.log.info(f"Taking screenshot")
             self.driver.save_screenshot(".\\Screenshots\\test_verify_Credkart_url_001_pass.png")
