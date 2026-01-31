@@ -67,7 +67,7 @@ class Test_User_Profile :
         self.driver.get(self.login_url)
         self.log.info(f"Opening browser and getting {self.login_url}")
         self.log.info(f"Checking driver title")
-        if self.driver.title == "CredKart":
+        if self.driver.title == "CredKart1":
             self.log.info(f"Testcase test_verify_Credkart_url_001 is passed")
             self.log.info(f"Taking screenshot")
             self.driver.save_screenshot(".\\Screenshots\\test_verify_Credkart_url_001_pass.png")
@@ -214,7 +214,7 @@ class Test_User_Profile :
             assert False, "User Registration Fail"
         self.log.info(f"Testcase test_Credkart_registration_003 is completed")
 
-# pytest -v -s -n=auto --html=Html_reports\my_report_28th_jan_2026.html
+# pytest -v -s -n=auto --html=Html_reports\my_report_31st_jan_2026.html --browser firefox
 # pytest -v -s -n=auto --html=Html_reports\my_report_28th_jan_2026.html --alluredir=AllureReports
 
 

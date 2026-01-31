@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This testcases is to validate CredKart website title","833","test_verify_Credkart_url_001","testCases","Sat Jan 31 08:48:43 IST 2026","failed","Sat Jan 31 08:48:43 IST 2026","Test_User_Profile","test_Credkart_User_Profile_001","",""
